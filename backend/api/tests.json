@@ -1,0 +1,28 @@
+{
+  "tests": [
+    {
+      "name": "GET sections returns array",
+      "method": "GET",
+      "path": "/?resource=sections",
+      "expectedStatus": 200,
+      "expectedBody": {},
+      "bodyMatcher": "partial"
+    },
+    {
+      "name": "GET materials returns array",
+      "method": "GET",
+      "path": "/?resource=materials",
+      "expectedStatus": 200,
+      "expectedBody": {},
+      "bodyMatcher": "partial"
+    },
+    {
+      "name": "GET notifications returns array",
+      "method": "GET",
+      "path": "/?resource=notifications",
+      "expectedStatus": 200,
+      "expectedBody": {},
+      "bodyMatcher": "partial"
+    }
+  ]
+}
